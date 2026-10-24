@@ -13,6 +13,7 @@ body{
     float: left;
     position: relative;
     width: fit-content;
+    top: 0.5rem;
 }
 @keyframes spin{
     0%{
@@ -34,7 +35,7 @@ body{
     border: 1px solid #eac46d;
     height: 30%;
     width: 40%;
-    margin-top: 35%;
+    margin-top: 34.2%;
     align-items: center;
     border-radius: 100%;
     box-shadow: 10px 0 30px #eac46d;
@@ -74,9 +75,29 @@ li:after{
  
 }
 
+#mercury{
+    background-color: aqua;
+    aspect-ratio: 1/1;
+    width: 2.5rem;
+    border-radius: 50%;
+   position: absolute;
+    margin-top:-55%;
+    left: 8.5%;
+}
+
 #venus-or{
   --dis: 55rem;
   
+}
+
+#venus{
+    background-color: blue;
+    aspect-ratio: 1/1;
+    width: 3.4rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:-45%;
+    left: 12%;
 }
 
 #earth-or{
@@ -84,31 +105,84 @@ li:after{
   
 }
 
+#earth{
+    background-color: olive;
+    aspect-ratio: 1/1;
+    width: 3.5rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:-50%;
+    left: 16.9%;
+}
 #mars-or{
-  --dis: 81rem; 
+  --dis: 84rem; 
   
+}
+
+#mars{
+    background-color: red;
+    aspect-ratio: 1/1;
+    width: 2.5rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:-54%;
+    left: 22.3%;
 }
 
 #jupiter-or{
-  --dis: 94rem; 
+  --dis: 104rem; 
   
 }
 
-#saturn-or{
-  --dis: 107rem;  
+#jupiter{
+    background-color: orange;
+    aspect-ratio: 1/1;
+    width: 9rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:-47%;
+    left: 26%;
 }
 
-#uranus-or{
+#saturn-or{
   --dis: 120rem;  
 }
 
-#neptune-or{
-  --dis: 133em;  
+#saturn{
+    background-color: antiquewhite;
+    aspect-ratio: 1/1;
+    width: 8rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:-58%;
+    left: 31.7%;
 }
 
-#pluto-or{
+#uranus-or{
+  --dis: 140rem;  
+}
+
+#uranus{
+    background-color: teal;
+    aspect-ratio: 1/1;
+    width: 7rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:-46%;
+    left: 38.5%;
+}
+
+#neptune-or{
   --dis: 160em;  
 }
 
-
+#neptune{
+    background-color: cyan;
+    aspect-ratio: 1/1;
+    width: 6rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top:-53%;
+    left: 44.9%;
+}
 
