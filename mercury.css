@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.letter{
+    background-color: beige;
+    margin:0 auto;
+    width: 80%;
+    height: 80%;
+    border: 1rem double brown;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.letter-wrap{
+    position: absolute;
+    border: 0.3rem dashed blue;
+    width: 97%;
+    height: 95%;
+    top: 0.5rem;
+    left: 0.8rem;
+    border-radius: 1rem;
+}
+
+aside{
+    position: absolute;
+    left: 1rem;
+    top: 0.8rem;
+    height: 95%;
+    width: 40%;
+    border-right:0.6rem solid seagreen ;
+    
+}
+
+h2{
+    font-size: 3rem;
+    position: absolute;
+    margin-left: 27%;
+    top: -3rem;
+   
+}
+
+.mercury{
+    background-image: radial-gradient(rgb(123, 123, 121) 30%, rgb(60, 60, 60) 70%);;
+    aspect-ratio: 1/1;
+    width: 20rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 1.8rem;
+    top: 3.5rem;
+}
+
+.window{
+    position: relative;
+    float: right;
+    width: 55%;
+    height: 30%;
+    right: .4rem;
+    top:-0.6rem ;
+    border: 0.4rem solid black;
+    overflow: hidden;
+
+}
+
+#planet-view{
+    position: absolute;
+    width: 39rem;
+    height: 18rem;
+    border-radius: 18rem 18rem 0 0 ;
+    top: 0.8rem;
+    background-color: aquamarine;
+    justify-self: center;
+}
