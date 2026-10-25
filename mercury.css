@@ -55,13 +55,24 @@ h2{
     top: 3.5rem;
 }
 
+.facts{
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0rem;
+    width: 25rem;
+    height: fit-content;
+    font-size: 1.3rem;
+    color: black;
+    order: 3;
+}
+
 .window{
     position: relative;
     float: right;
     width: 55%;
     height: 30%;
     right: .4rem;
-    top:-0.6rem ;
+    top:0.3rem ;
     border: 0.4rem solid black;
     overflow: hidden;
 
@@ -73,6 +84,33 @@ h2{
     height: 18rem;
     border-radius: 18rem 18rem 0 0 ;
     top: 0.8rem;
-    background-color: aquamarine;
+    background-color: gainsboro;
     justify-self: center;
+}
+
+.text-wrap{
+    width: 19rem;
+    height: 18rem;
+    position: absolute;
+    border-right: 0.2rem solid black;
+    top: 11rem;
+    left: 27rem;
+    padding: 1rem;
+}
+
+#text{
+    font-size: 1.2rem;
+}
+
+.src-box{
+background-color: aquamarine;
+position: absolute;
+top: 11rem;
+right: 0.5rem;
+width: 13rem;
+height: 9rem;
+}
+
+#sources{
+    font-size: 1.5rem;
 }
