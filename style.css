@@ -35,13 +35,32 @@ body{
     border: 1px solid #eac46d;
     height: 30%;
     width: 40%;
-    margin-top: 34.2%;
+    margin-top: 34.6%;
     align-items: center;
     border-radius: 100%;
     box-shadow: 10px 0 30px #eac46d;
     animation-name: spin;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+
+
+.infowrap{
+    width: 0%;
+    height: 0%;
+    position: relative;
+    top: -21rem;
+    right: 80rem;
+}
+
+#infobox{
+    width: 27rem;
+    height: 12rem;
+    background-color: rgba(61, 67, 65, 0.653);
+    position: absolute;
+    top: 0;
+    right: 0;
+    
 }
 
 .orbits{
@@ -76,7 +95,7 @@ li:after{
 }
 
 #mercury{
-    background-color: aqua;
+    background-image: radial-gradient(rgb(123, 123, 121) 30%, rgb(60, 60, 60) 70%);;
     aspect-ratio: 1/1;
     width: 2.5rem;
     border-radius: 50%;
@@ -91,7 +110,7 @@ li:after{
 }
 
 #venus{
-    background-color: blue;
+    background-image:radial-gradient(rgb(183, 157, 138) 30%, rgb(236, 236, 233) 70%);;
     aspect-ratio: 1/1;
     width: 3.4rem;
     border-radius: 50%;
@@ -106,7 +125,7 @@ li:after{
 }
 
 #earth{
-    background-color: olive;
+    background-image:radial-gradient(rgb(35, 82, 192) 30%, rgb(11, 63, 79) 70%);;
     aspect-ratio: 1/1;
     width: 3.5rem;
     border-radius: 50%;
@@ -120,7 +139,7 @@ li:after{
 }
 
 #mars{
-    background-color: red;
+    background-image: radial-gradient(rgb(73, 17, 12) 30%, rgb(108, 23, 10) 70%);;
     aspect-ratio: 1/1;
     width: 2.5rem;
     border-radius: 50%;
@@ -135,7 +154,7 @@ li:after{
 }
 
 #jupiter{
-    background-color: orange;
+    background-image: radial-gradient(rgb(236, 230, 229) 10%, #675757 70%);;
     aspect-ratio: 1/1;
     width: 9rem;
     border-radius: 50%;
@@ -149,12 +168,12 @@ li:after{
 }
 
 #saturn{
-    background-color: antiquewhite;
+    background-image: radial-gradient(rgb(223, 214, 173) 30%, rgb(132, 129, 118) 70%);
     aspect-ratio: 1/1;
     width: 8rem;
     border-radius: 50%;
     position: absolute;
-    margin-top:-58%;
+    margin-top:-54%;
     left: 31.7%;
 }
 
@@ -163,7 +182,7 @@ li:after{
 }
 
 #uranus{
-    background-color: teal;
+    background-image: radial-gradient(rgb(9, 161, 216) 40%, rgb(22, 107, 176) 70%);;
     aspect-ratio: 1/1;
     width: 7rem;
     border-radius: 50%;
@@ -177,7 +196,7 @@ li:after{
 }
 
 #neptune{
-    background-color: cyan;
+    background-image: radial-gradient(rgb(16, 65, 228) 30%, rgb(46, 74, 213) 70%);;
     aspect-ratio: 1/1;
     width: 6rem;
     border-radius: 50%;
