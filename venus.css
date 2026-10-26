@@ -13,14 +13,14 @@ body{
     margin:0 auto;
     width: 80%;
     height: 80%;
-    border: 1rem double rgb(145, 157, 217);
+    border: 1rem double rgb(237, 202, 161);
     border-radius: 2rem;
     position: relative;
 }
 
 .letter-wrap{
     position: absolute;
-    border: 0.3rem dashed rgb(53, 53, 63);
+    border: 0.3rem dashed rgb(234, 204, 107);
     width: 97%;
     height: 95%;
     top: 0.5rem;
@@ -34,7 +34,7 @@ aside{
     top: 0.8rem;
     height: 95%;
     width: 40%;
-    border-right:0.6rem solid rgb(145, 157, 217) ;
+    border-right:0.6rem solid rgb(219, 152, 76) ;
     
 }
 
@@ -47,9 +47,9 @@ h2{
    
 }
 
-.mercury{
-    border: 2px solid rgb(56, 56, 56);
-    background-image: linear-gradient(0deg, #989898 0%, #4a4a4a 100%);
+.venus{
+    border: 2px solid rgb(135, 117, 92);
+    background-image: linear-gradient(0deg, #ead3ae 0%, #f1ece8 100%);
     aspect-ratio: 1/1;
     width: 20rem;
     border-radius: 50%;
@@ -59,46 +59,48 @@ h2{
 }
 
 #h1{
-    aspect-ratio: 1 / 1;
-    background-color: #b4b4b4;
-    width: 2rem;
-    border-radius: 50%;
+    background-color: #e2cca6ad;
+    width: 8rem;
+    height: 1rem;
+    border-radius: 2rem;
     position: absolute;
     top: 15rem;
-    left: 14rem;
-    box-shadow: #4a4a4a inset 4px 2px;
+    left: 9rem;
+    box-shadow: #e6caa1 2rem -5rem 1rem ;
 }
 
 #h2{
-    aspect-ratio: 1 / 1;
-    background-color: #b4b4b4;
-    width: 1rem;
-    border-radius: 50%;
+    
+    background-color: #d6b48eb3;
+    width: 6rem;
+    height: 1rem;
+    border-radius: 2rem;
     position: absolute;
     top: 13rem;
     left: 2rem;
-    
+    box-shadow: #dfd9d1 3rem 3rem 1rem ;
 }
 
 #h3{
-    aspect-ratio: 1 / 1;
-    background-color: #b4b4b4;
-    width: 1rem;
-    border-radius: 50%;
+    background-color: #d7bea6ea;
+    width: 9rem;
+    height: 1rem;
+    border-radius: 2rem;
     position: absolute;
     top: 10rem;
     left: 4rem;
+    box-shadow: #e3cba6 2rem 1.6rem 1rem ;
 }
 
 #h4{
-    background-image: radial-gradient(#4a4a4a80 30%);
-    width: 8rem;
-    height: 6rem;
-    border-radius: 50%;
+    background-image: radial-gradient(#ae7f4aaa 30%);
+    width: 10rem;
+    height: 1rem;
+    border-radius: 2rem;
     position: absolute;
-    top: rem;
+    top: 4rem;
     left: 6rem;
-    box-shadow: #4a4a4a 2px 2px 1rem ;
+    box-shadow: #e6caa1 2px -2rem 1rem ;
 }
 
 
@@ -141,33 +143,33 @@ ul{
     left:-2.3rem ;
     border-radius: 18rem 18rem 0 0 ;
     top: 0.8rem;
-    background-image: linear-gradient(0deg, #989898 0%, #303030 100%);;
+    background-image: linear-gradient(0deg, #d2ae74 0%, #bbab9f 100%);;
     overflow: hidden;
 }
 
 
 
 #h5{
-     background-image: radial-gradient(#3d3c3c80 30%, #36363668 70%);
+     background-image: radial-gradient(#d3b28480 30%, #fae1b1ab 70%);
     width: 20rem;
     height: 6rem;
     border-radius: 50%;
     position: absolute;
     top: -1rem;
     left: 10rem;
-    box-shadow: #242424b8 0 0 20px 20px inset, #2b2a2a 0 0 20px 2px , #343333 0 0 20px 20px;
+    box-shadow: #ded6c2b8 0 0 20px 20px inset, #ded6c2 0 0 20px 2px , #e2ccb3 0 0 20px 20px;
 }
 
 #h6{
-    aspect-ratio: 1 / 1;
     content: "";
-    background-color: #626262;
-    width: 4rem;
-    border-radius: 50%;
+    background-color: #f4e1cb5d;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
     position: absolute;
-    top: 7rem;
+    top: 7.5rem;
     left: 25rem;
-    box-shadow: #4a4a4a inset 4px 2px;
+    box-shadow: #d6b6a2 -4rem -2rem 1rem ;
 }
 
 .text-wrap{
@@ -187,7 +189,7 @@ ul{
 }
 
 .src-box{
-background-color: #a1a0a0;
+background-color: #8f7051;
 position: absolute;
 top: 11rem;
 right: 0.5rem;
