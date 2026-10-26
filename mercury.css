@@ -5,21 +5,22 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
+     background-image: linear-gradient(0deg, #000 0%, rgb(71, 68, 62) 100%);
 }
 
 .letter{
-    background-color: beige;
+    background-color: rgb(245, 241, 206);
     margin:0 auto;
     width: 80%;
     height: 80%;
-    border: 1rem double brown;
+    border: 1rem double rgb(145, 157, 217);
     border-radius: 2rem;
     position: relative;
 }
 
 .letter-wrap{
     position: absolute;
-    border: 0.3rem dashed blue;
+    border: 0.3rem dashed rgb(53, 53, 63);
     width: 97%;
     height: 95%;
     top: 0.5rem;
@@ -33,11 +34,12 @@ aside{
     top: 0.8rem;
     height: 95%;
     width: 40%;
-    border-right:0.6rem solid seagreen ;
+    border-right:0.6rem solid rgb(145, 157, 217) ;
     
 }
 
 h2{
+    font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
     position: absolute;
     margin-left: 27%;
@@ -109,12 +111,13 @@ ul{
 }
 
 .facts{
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: absolute;
     left: 0.5rem;
     bottom: 0.5rem;
     width: 25rem;
     height: fit-content;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: black;
     order: 3;
 }
@@ -142,6 +145,8 @@ ul{
     overflow: hidden;
 }
 
+
+
 #h5{
      background-image: radial-gradient(#3d3c3c80 30%, #36363668 70%);
     width: 20rem;
@@ -156,12 +161,12 @@ ul{
 #h6{
     aspect-ratio: 1 / 1;
     content: "";
-    background-color: #b4b4b4;
-    width: 2rem;
+    background-color: #626262;
+    width: 4rem;
     border-radius: 50%;
     position: absolute;
-    top: -1rem;
-    left: 5rem;
+    top: 7rem;
+    left: 25rem;
     box-shadow: #4a4a4a inset 4px 2px;
 }
 
@@ -177,17 +182,19 @@ ul{
 }
 
 #text{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .src-box{
-background-color: aquamarine;
+background-color: #a1a0a0;
 position: absolute;
 top: 11rem;
 right: 0.5rem;
 width: 13rem;
 height: 9rem;
 justify-content: center;
+
 }
 
 #sources{
@@ -195,4 +202,58 @@ justify-content: center;
     justify-self: center;
     position: absolute;
     left: 2rem;
+    top: 3.4rem;
+    color: rgb(40, 50, 142);
+}
+
+.rocket-box{
+
+    position: absolute;
+    width:10rem;
+    height: 10rem;
+   right: 1rem;
+    top: 20.5rem;
+}
+
+.rocket{
+    background-color: rgb(40, 50, 142);
+    height: 8rem;
+    position: relative;
+    top: 1rem;
+    border-radius: 50% 50% 0 0;
+    left: 3.5rem;
+    width: 3rem;
+    z-index: 3;
+}
+.wings{
+background-color: rgb(145, 157, 217);
+height: 3rem;
+width: 8rem;
+position: relative;
+top:-2.5rem;
+left: 1rem;
+border-radius: 50% 50% 0 0;
+z-index: 0;
+}
+.fire{
+    content: "";
+    background-color: #d86e41;
+    height: 0.5rem;
+    width: 2rem;
+    position: relative;
+    top: -2rem;
+    left: 4rem;
+    z-index: 5;
+}
+
+.rocket-window{
+    background-color: rgb(145, 157, 217);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 2rem;
+    position: relative;
+    top: -9rem;
+    left: 4rem;
+    z-index: 9;
+    box-shadow: rgb(19, 25, 75) inset 3px 4px;
 }

@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+     background-image: linear-gradient(0deg, #000 0%, rgb(71, 68, 62) 100%);
+}
+
+.letter{
+    background-color: rgb(245, 241, 206);
+    margin:0 auto;
+    width: 80%;
+    height: 80%;
+    border: 1rem double rgb(145, 157, 217);
+    border-radius: 2rem;
+    position: relative;
+}
+
+.letter-wrap{
+    position: absolute;
+    border: 0.3rem dashed rgb(53, 53, 63);
+    width: 97%;
+    height: 95%;
+    top: 0.5rem;
+    left: 0.8rem;
+    border-radius: 1rem;
+}
+
+aside{
+    position: absolute;
+    left: 1rem;
+    top: 0.8rem;
+    height: 95%;
+    width: 40%;
+    border-right:0.6rem solid rgb(145, 157, 217) ;
+    
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    position: absolute;
+    margin-left: 27%;
+    top: -3rem;
+   
+}
+
+.mercury{
+    border: 2px solid rgb(56, 56, 56);
+    background-image: linear-gradient(0deg, #989898 0%, #4a4a4a 100%);
+    aspect-ratio: 1/1;
+    width: 20rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 1.8rem;
+    top: 3.2rem;
+}
+
+#h1{
+    aspect-ratio: 1 / 1;
+    background-color: #b4b4b4;
+    width: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 15rem;
+    left: 14rem;
+    box-shadow: #4a4a4a inset 4px 2px;
+}
+
+#h2{
+    aspect-ratio: 1 / 1;
+    background-color: #b4b4b4;
+    width: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 13rem;
+    left: 2rem;
+    
+}
+
+#h3{
+    aspect-ratio: 1 / 1;
+    background-color: #b4b4b4;
+    width: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+}
+
+#h4{
+    background-image: radial-gradient(#4a4a4a80 30%);
+    width: 8rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: absolute;
+    top: rem;
+    left: 6rem;
+    box-shadow: #4a4a4a 2px 2px 1rem ;
+}
+
+
+
+ul{
+    column-count: 2;
+    column-gap: 1.2rem;
+    list-style-type: square;
+    row-gap: 0.5rem;
+}
+
+.facts{
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    width: 25rem;
+    height: fit-content;
+    font-size: 1.2rem;
+    color: black;
+    order: 3;
+}
+
+.window{
+    position: relative;
+    float: right;
+    width: 55%;
+    height: 30%;
+    right: .4rem;
+    top:0.3rem ;
+    border: 0.4rem solid black;
+    overflow: hidden;
+
+}
+
+#planet-view{
+    position: absolute;
+    width: 39rem;
+    height: 18rem;
+    left:-2.3rem ;
+    border-radius: 18rem 18rem 0 0 ;
+    top: 0.8rem;
+    background-image: linear-gradient(0deg, #989898 0%, #303030 100%);;
+    overflow: hidden;
+}
+
+
+
+#h5{
+     background-image: radial-gradient(#3d3c3c80 30%, #36363668 70%);
+    width: 20rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -1rem;
+    left: 10rem;
+    box-shadow: #242424b8 0 0 20px 20px inset, #2b2a2a 0 0 20px 2px , #343333 0 0 20px 20px;
+}
+
+#h6{
+    aspect-ratio: 1 / 1;
+    content: "";
+    background-color: #626262;
+    width: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 7rem;
+    left: 25rem;
+    box-shadow: #4a4a4a inset 4px 2px;
+}
+
+.text-wrap{
+    width: 19rem;
+    height: 18rem;
+    position: absolute;
+    border-right: 0.2rem solid black;
+    top: 11rem;
+    left: 27rem;
+    padding: 1rem;
+    
+}
+
+#text{
+    font-size: 1rem;
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.src-box{
+background-color: #a1a0a0;
+position: absolute;
+top: 11rem;
+right: 0.5rem;
+width: 13rem;
+height: 9rem;
+justify-content: center;
+
+}
+
+#sources{
+    font-size: 1.5rem;
+    justify-self: center;
+    position: absolute;
+    left: 2rem;
+    top: 3.4rem;
+    color: rgb(40, 50, 142);
+}
+
+.rocket-box{
+
+    position: absolute;
+    width:10rem;
+    height: 10rem;
+   right: 1rem;
+    top: 20.5rem;
+}
+
+.rocket{
+    background-color: rgb(40, 50, 142);
+    height: 8rem;
+    position: relative;
+    top: 1rem;
+    border-radius: 50% 50% 0 0;
+    left: 3.5rem;
+    width: 3rem;
+    z-index: 3;
+}
+.wings{
+background-color: rgb(145, 157, 217);
+height: 3rem;
+width: 8rem;
+position: relative;
+top:-2.5rem;
+left: 1rem;
+border-radius: 50% 50% 0 0;
+z-index: 0;
+}
+.fire{
+    content: "";
+    background-color: #d86e41;
+    height: 0.5rem;
+    width: 2rem;
+    position: relative;
+    top: -2rem;
+    left: 4rem;
+    z-index: 5;
+}
+
+.rocket-window{
+    background-color: rgb(145, 157, 217);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 2rem;
+    position: relative;
+    top: -9rem;
+    left: 4rem;
+    z-index: 9;
+    box-shadow: rgb(19, 25, 75) inset 3px 4px;
+}
